@@ -1,0 +1,4 @@
+# Ignore the following files for Git commit
+
+.jekyll-cache/
+_site/
