@@ -1,3 +1,7 @@
+### How to install jekyll
+
+Vist: [Jekyll Installation](https://jekyllrb.com/docs/installation/)
+
 ### Start the server
 ```
 jekyll serve
