@@ -1,11 +1,13 @@
 body {
   background: gray;
   padding: 20px;
+  font-family: "Arial";
 }
 
 header {
   background: yellow;
   padding: 20px;
+  font-family: "Times New Roman";
 }
 
 nav {
@@ -15,6 +17,11 @@ nav {
 
 section {
   background: blue;
+  padding: 20px;
+}
+
+aside {
+  background: orange;
   padding: 20px;
 }
 
