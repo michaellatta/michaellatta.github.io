@@ -11,6 +11,9 @@ header {
   padding: 10px;
   font-family: "Arial";
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -31,6 +34,11 @@ aside {
 
 article {
   padding: 20px;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
 }
 
 .bird {
