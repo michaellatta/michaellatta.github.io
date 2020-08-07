@@ -36,6 +36,14 @@ article {
   padding: 20px;
 }
 
+.content-wrap {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   max-width: 700px;
   margin: auto;
