@@ -1,6 +1,5 @@
 body {
   background: #fff;
-  /*padding: 20px;  (comment example)*/
   margin: 0;
   padding: 0;
   font-family: "Arial";
@@ -22,6 +21,32 @@ nav {
 
 nav a {
   color: #fff;
+}
+
+.nav-example {
+  list-style: none;
+  padding-left: 20px;
+}
+
+/*Formatting (comment example)*/
+
+.bold-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.small-text {
+  font-size: 8px;
+}
+
+code {
+  font-family: "Monaco";
+  font-style: normal;
+  background-color: black;
+  color: white;
 }
 
 section {
