@@ -88,23 +88,26 @@ footer {
 
 .container {
   display: flex;
-  background-color: blue;
-  color: orange;
+  font-size: 40px;
+  color: blue;
   padding: 20px;
+  background: pink;
   width: 100%;
-  flex-direction: grow;
+  align-items: center;
+  flex-direction: row;
 }
 
 .item {
-  background-color: green;
+  background: orange;
   padding: 20px;
-  font-size: 50px;
-  order: 5;
-  flex-grow: 0;
+  font-weight: bold;
   text-align: center;
+  flex-grow: 0;
 }
 
 .item-big {
-  flex-grow: 4;
-  background-color: yellow;
+  background: yellow;
+  font-size: 60px;
+  color: black;
+  flex-grow: 2;
 }
