@@ -69,9 +69,11 @@ article {
   align-items: center;
 }
 
-main {
+.container {
   max-width: 700px;
   margin: auto;
+  padding: 20px;
+  width: 100%;
 }
 
 .bird {
@@ -84,17 +86,16 @@ footer {
   color: #fff;
 }
 
-/*Flexbox CSS*/
+/*Flexbox CSS class*/
 
-.container {
+.flexbox-example {
   display: flex;
   font-size: 40px;
   color: blue;
-  padding: 20px;
   background: pink;
-  width: 100%;
   align-items: center;
   flex-direction: row;
+  padding: 20px;
 }
 
 .item {
