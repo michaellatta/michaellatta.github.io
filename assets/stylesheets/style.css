@@ -15,12 +15,28 @@ header {
   align-items: center;
 }
 
+/* Logo above nav in header */
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
 nav {
   padding: 20px;
 }
 
 nav a {
   color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .nav-example {
@@ -28,7 +44,18 @@ nav a {
   padding-left: 20px;
 }
 
-/*Formatting (comment example)*/
+/* Link styles */
+
+a {
+  color: #1578E6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Formatting (comment example) */
 
 .bold-text {
   font-weight: bold;
@@ -86,7 +113,7 @@ footer {
   color: #fff;
 }
 
-/*Flexbox CSS class*/
+/* Flexbox CSS class */
 
 .flexbox-example {
   display: flex;
