@@ -139,3 +139,24 @@ footer {
   color: black;
   flex-grow: 2;
 }
+
+/* Blog CSS classes */
+
+.blog-date {
+  margin-bottom: 50px;
+  color: #555;
+}
+
+.blog-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.blog-list-item {
+  margin-bottom: 40px;
+}
+
+.blog-list-title {
+  font-size: 20px;
+  margin: 0;
+}
