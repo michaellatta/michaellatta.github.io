@@ -160,3 +160,31 @@ footer {
   font-size: 20px;
   margin: 0;
 }
+
+/* BEM classes */
+
+/* block */
+.button {
+  background: #1578E6;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* element */
+.button__price {
+  font-weight: bold;
+}
+
+/* modifier */
+.button--orange {
+  background: #ff6600;
+}
+
+/* 2nd modifier */
+.button--big {
+  font-size: 30px;
+}
