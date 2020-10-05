@@ -188,3 +188,22 @@ footer {
 .button--big {
   font-size: 30px;
 }
+
+/* BEM shopping cart */
+
+.shopping-cart {
+  background: #ff6600;
+  padding: 15px;
+  list-style: none;
+  color: white;
+}
+
+.shopping-cart__item {
+  background: gray;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.shopping-cart--selected {
+  background: #1578E6;
+}
