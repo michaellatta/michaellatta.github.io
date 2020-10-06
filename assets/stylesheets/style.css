@@ -172,6 +172,7 @@ footer {
   padding: 15px;
   border-radius: 4px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /* element */
@@ -206,4 +207,29 @@ footer {
 
 .shopping-cart--selected {
   background: #1578E6;
+}
+
+/* BEM form */
+
+.form {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__text {
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.form__submit {
+  width: 100%;
+  display: block;
 }
