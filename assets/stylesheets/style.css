@@ -233,3 +233,14 @@ footer {
   width: 100%;
   display: block;
 }
+
+/* BEM nav */
+
+.menu {
+  background-color: blue;
+}
+
+.menu__item {
+  padding: 5px;
+  display: inline-flex;
+}
