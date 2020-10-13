@@ -1,0 +1,32 @@
+/* Form Project CSS */
+* :focus { outline: none !important; }
+
+.text-input-example {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.text-input-example:focus {
+  border: 1px solid blue;
+}
+
+.text-area-example {
+
+}
+
+.checkbox-example {
+
+}
+
+.radio-button-example {
+
+}
+
+.select-menu-example {
+
+}
+
+.button-example {
+
+}
