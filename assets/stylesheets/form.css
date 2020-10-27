@@ -1,23 +1,37 @@
 /* Form Project CSS */
 * :focus { outline: none !important; }
 
+.form-heading {
+  text-align: center;
+}
+
+.form-container {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
 label {
   display: block;
 }
-.text-input-example {
+
+.form-label {
+  font-weight: bold;
+}
+
+.text-input-example,
+.text-area-example {
+  width: 100%;
   padding: 10px;
   border: 1px solid #eee;
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 
-.text-input-example:focus {
+.text-input-example:focus,
+.text-area-example:focus {
   border: 1px solid blue;
-}
-
-.text-area-example {
-  border: 1px solid #606060;
-  color: red;
-  background-color: #E0E0E0;
 }
 
 .checkbox-example,
