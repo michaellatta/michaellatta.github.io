@@ -1,0 +1,15 @@
+h1, h2 {
+  font-weight: 700;
+}
+
+.typography-intro {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.typography-overview {
+  background-color: #3d99de;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
