@@ -4,13 +4,13 @@ body {
   background: #fff;
   margin: 0;
   padding: 0;
-  font-family: "Arial";
+  font-family: "Raleway";
 }
 
 header {
   background: #333;
   padding: 10px;
-  font-family: "Arial";
+  font-family: "Raleway";
   color: #fff;
   display: flex;
   justify-content: space-between;
