@@ -30,6 +30,8 @@ header {
 
 nav {
   padding: 20px;
+  text-transform: uppercase;
+  align-items: right;
 }
 
 nav a {
