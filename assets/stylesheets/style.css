@@ -19,7 +19,7 @@ header {
 
 .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly; /* space-evenly provided the ideal header spacing */
   align-items: center;
 }
 
