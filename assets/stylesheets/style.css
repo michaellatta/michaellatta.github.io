@@ -38,6 +38,7 @@ nav {
   padding: 20px;
   text-transform: uppercase;
   align-items: right;
+  font-weight: bold;
 }
 
 nav a {
