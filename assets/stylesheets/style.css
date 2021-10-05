@@ -253,3 +253,30 @@ footer {
 .menu__item {
   padding: 5px;
 }
+
+/* Home flexbox CSS classes */
+
+.home-flexbox {
+  display: flex;
+  font-size: 20px;
+  height: 600px;
+  width: 600px;
+  color: green;
+  background: blue;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-item {
+  background: gray;
+  height: 250px;
+  width: 250px;
+  margin: 5px;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 0;
+}
