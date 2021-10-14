@@ -262,7 +262,7 @@ footer {
   height: 600px;
   width: 600px;
   color: green;
-  background: blue;
+  background: #939393;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -271,11 +271,17 @@ footer {
 }
 
 .home-item {
-  background: gray;
+  background: #4B6A88;
   height: 250px;
   width: 250px;
   margin: 5px;
   font-weight: bold;
   text-align: center;
   flex-grow: 0;
+}
+
+/* About page CSS */
+
+.about_picture {
+  max-width: 100%;
 }
