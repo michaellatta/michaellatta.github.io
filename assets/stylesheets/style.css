@@ -258,16 +258,21 @@ footer {
 
 .home-flexbox {
   display: flex;
-  font-size: 20px;
+  font-size: 30px;
   height: 600px;
   width: 600px;
-  color: green;
+  color: white;
   background: #939393;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+}
+
+.home-flexbox a {
+  color: white;
+  text-decoration: none;
 }
 
 .home-item {
