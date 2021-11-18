@@ -283,6 +283,7 @@ footer {
   margin: 5px;
   font-weight: bold;
   text-align: center;
+  align-items: center;
   flex-grow: 0;
   display: flex;
 }
