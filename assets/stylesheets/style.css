@@ -288,6 +288,26 @@ footer {
   display: flex;
 }
 
+.home-box {
+  max-width: 50em;
+}
+
+.home-box-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-box-item-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-box-item-title {
+  margin: 0;
+}
+
 /* Home additional formating */
 
 .home-text {
